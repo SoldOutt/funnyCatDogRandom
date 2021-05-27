@@ -13,7 +13,6 @@ btnCat.addEventListener('click', ()=>{
 
 	})
 	.catch(err=>console.log('link loi '+ err))
-	.pending(()=>console.log('chờ tí'))
 })
 btnDog.addEventListener('click', ()=>{
 	var link ="https://random.dog/woof.json"
